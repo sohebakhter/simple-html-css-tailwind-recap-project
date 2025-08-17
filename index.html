@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
-
+    <title>teahouse</title>
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -39,14 +38,16 @@
         </div>
     </div>
     <!-- feature section -->
-    <section class="hidden feature_parent max-w-[1250px] mx-auto ">
-        <div class="text-center gap-5">
+    <section class=" feature_parent max-w-[1250px] mx-auto ">
+        <div class=" text-center sm:text-center gap-5">
             <h2 class="text-[45px] font-bold">Our Featured Products</h2>
-            <p class="text-base text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+            <p class="text-base  text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration
+                in some form, <br> by injected humour, or randomised words which don't look even slightly believable.
+            </p>
         </div>
-        <div class="cards grid grid-cols-4 pt-12">
-            <div class="card w-[267px] h-[391px] bg-gradient-to-t from-[#f4f4f400] to-[#f4f4f4] rounded-[10px] ">
+        <div class="cards grid grid-cols-1  md:grid-cols-4 pt-12">
+            <div class="card md:w-[267px] h-[391px] bg-gradient-to-t from-[#f4f4f400] to-[#f4f4f4] rounded-[10px] ">
                 <img src="images/tea-1.png" class="mx-auto pt-8" alt="">
                 <div class="">
                     <p class="text-[25px] font-bold text-center pt-8">Milk Tea</p>
@@ -54,7 +55,7 @@
                         fresh milk</p>
                 </div>
             </div>
-             <div class="card w-[267px] h-[391px] bg-gradient-to-t from-[#f4f4f400] to-[#f4f4f4] rounded-[10px]">
+            <div class="card md:w-[267px] h-[391px] bg-gradient-to-t from-[#f4f4f400] to-[#f4f4f4] rounded-[10px]">
                 <img src="images/tea-2.png" class="mx-auto pt-8" alt="">
                 <div class="">
                     <p class="text-[25px] font-bold text-center pt-8">Black Tea</p>
@@ -62,7 +63,7 @@
                         fresh milk</p>
                 </div>
             </div>
-             <div class="card w-[267px] h-[391px] bg-gradient-to-t from-[#f4f4f400] to-[#f4f4f4] rounded-[10px]">
+            <div class="card md:w-[267px] h-[391px] bg-gradient-to-t from-[#f4f4f400] to-[#f4f4f4] rounded-[10px]">
                 <img src="images/tea-3.png" class="mx-auto pt-8" alt="">
                 <div class="">
                     <p class="text-[25px] font-bold text-center pt-8">Lemon Tea</p>
@@ -70,7 +71,7 @@
                         fresh milk</p>
                 </div>
             </div>
-             <div class="card w-[267px] h-[391px] bg-gradient-to-t from-[#f4f4f400] to-[#f4f4f4] rounded-[10px]">
+            <div class="card md:w-[267px] h-[391px] bg-gradient-to-t from-[#f4f4f400] to-[#f4f4f4] rounded-[10px]">
                 <img src="images/tea-4.png" class="mx-auto pt-8" alt="">
                 <div class="">
                     <p class="text-[25px] font-bold text-center pt-8">Green Tea</p>
@@ -78,8 +79,48 @@
                         fresh milk</p>
                 </div>
             </div>
-            
+
         </div>
+    </section>
+    <!-- present section -->
+    <section class="present_container max-w-[1250px] mx-auto mt-[160px]  flex flex-col md:flex-row p-3 gap-5">
+        <div class="left_present  md:w-1/2 grid grid-cols-2 grid-rows-3 gap-7 ">
+            <div class=" bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-10 rounded-xl"></div>
+            <div class="  row-span-2 rounded-xl bg-[#E6A6231A] flex justify-center items-center">
+                <img src="images/fresh-1.png" alt="">
+            </div>
+            <div class="  row-span-2 rounded-xl bg-[#5776391A]  flex justify-center items-center">
+                <img src="images/fresh-2.png" alt="">
+            </div>
+            <div class="  rounded-xl bg-gradient-to-r from-[#D9D9D9] to-[#ffffff]"></div>
+        </div>
+        <div class="right_present  md:w-1/2">
+            <h1 class="text-5xl font-semibold">Great Tea, Freshly Presented</h1>
+            <p class="text-base font-normal text-[#777777] mt-14">The meaning of gong cha is chanese is to provide the
+                best tea to emperor from all possessions . It represents the highest quality and self expectation.
+                Establishing in 2006, Gong cha had been deeply appreciated by its custoers because of good words of
+                mouth and unique customized service orginated from Taiwan.</p>
+            <h2 class="text-xl font-medium mt-8">Unique Taste</h2>
+            <p class="text-base font-normal text-[#777777] my-4">A Unique and different style from other teapots gives a
+                luxurious and minimalist impression</p>
+            <h2 class="text-xl font-medium mt-5">Premium Quality</h2>
+            <p class="text-base font-normal text-[#777777] my-4"> Premium Quality that makes tea more elegant and more
+                durable when you use it.</p>
+        </div>
+    </section>
+    <!-- Meet Our Super Clients section -->
+    <section class="clients_container border-2 border-red-500 bg-gradient-to-r from-[#FF8938] to-[#FF0000] max-w-[1250px] mx-auto h-[650px] flex p-5 gap-9 mt-[130px]">
+        <div class="left_client b w-1/2  my-auto p-20">
+            <h1 class="font-bold text-[45px] text-white">Meet Our Super <br> Clients</h1>
+            <p class="text-[16px] mt-[20px] text-white">There are many variations of passages of Lorem Ipsum <br> available, but the majority have
+                suffered alteration in some <br> form, by injected humour, or randomised words which don't <br> look even slightly
+                believable. </p>
+            <button class="py-[15px] px-[30px]  rounded-lg mt-[30px] bg-white"> <span class="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Show All</span></button>
+        </div>
+        <div class="right_client border-2 border-green-500 w-1/2">
+
+        </div>
+
     </section>
 </body>
 
